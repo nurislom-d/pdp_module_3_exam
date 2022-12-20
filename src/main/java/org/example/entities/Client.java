@@ -1,0 +1,19 @@
+package org.example.entities;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.UUID;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+public class Client {
+
+
+
+    private String login;
+    private String pass;
+    private Card ClientCard;
+}
